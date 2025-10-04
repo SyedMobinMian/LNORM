@@ -1,0 +1,26 @@
+/* Dark Theme */
+:root {
+  --bg-color: #121212;
+  --text-color: #f1f1f1;
+  --navbar-bg: #1a1a1a;
+  --sidebar-bg: #1e1e1e;
+  --footer-bg: #1a1a1a;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+  color: yellow;
+}
+
+footer {
+  background-color: var(--footer-bg);
+}

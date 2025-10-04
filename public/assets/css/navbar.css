@@ -1,0 +1,40 @@
+.navbar {
+  background: #250599;
+  border-bottom: 1px solid #dee2e6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  height: var(--navbar-height);
+}
+
+.brand-effect {
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  animation: pulse 3s infinite;
+}
+.logo-hover {
+  transition: transform 0.3s ease, filter 0.3s ease;
+  border-radius: 4px;
+}
+.brand-text {
+  background: linear-gradient(90deg, #3a7bd5, #00d2ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 8px rgba(0, 210, 255, 0.3);
+}
+.brand-effect:hover {
+  transform: translateY(-2px);
+}
+.brand-effect:hover .logo-hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 6px rgba(58, 123, 213, 0.5));
+}
+.brand-effect:hover .brand-text {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b);
+  text-shadow: 0 0 10px rgba(255, 75, 43, 0.4);
+}

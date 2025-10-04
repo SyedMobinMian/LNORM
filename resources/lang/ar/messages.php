@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'dashboard' => 'لوحة التحكم',
+    'clients' => 'العملاء',
+    'invoices' => 'الفواتير',
+    'inventory' => 'المخزون',
+    'logout' => 'تسجيل الخروج',
+    'total_sales' => 'إجمالي المبيعات',
+    'total_profit' => 'إجمالي الأرباح',
+    'pending_invoices' => 'الفواتير المعلقة',
+    'low_inventory' => 'مخزون منخفض',
+    'bank_summary' => 'ملخص البنك',
+    'inventory_levels' => 'مستويات المخزون',
+    'monthly_sales' => 'المبيعات الشهرية',
+    'profit_vs_loss' => 'الربح مقابل الخسارة',
+    'settings' => 'الإعدادات',
+    'language' => 'اللغة',
+    'currency' => 'العملة',
+    'currency_position' => 'موضع العملة',
+    'save' => 'حفظ الإعدادات',
+    'clients' => 'العملاء',
+    'add_client' => 'إضافة عميل',
+    'edit_client' => 'تعديل العميل',
+    'name' => 'الاسم',
+    'email' => 'البريد الإلكتروني',
+    'phone' => 'الهاتف',
+    'save' => 'حفظ',
+    'update' => 'تحديث',
+    'cancel' => 'إلغاء',
+    'actions' => 'الإجراءات',
+    'no_clients_found' => 'لا يوجد عملاء.',
+    'confirm_delete' => 'هل أنت متأكد أنك تريد حذف هذا العميل؟',
+
+
+];

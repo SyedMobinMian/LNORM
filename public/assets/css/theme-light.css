@@ -1,0 +1,26 @@
+/* Light Theme */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --navbar-bg: #f8f9fa;
+  --sidebar-bg: #448d57;
+  --footer-bg: #f1f1f1;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg);
+  color: yellow;
+}
+
+footer {
+  background-color: var(--footer-bg);
+}

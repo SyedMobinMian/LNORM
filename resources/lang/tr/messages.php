@@ -1,0 +1,36 @@
+<?php
+
+return [
+ 'dashboard' => 'Kontrol Paneli',
+    'clients' => 'Müşteriler',
+    'invoices' => 'Faturalar',
+    'inventory' => 'Stok',
+    'logout' => 'Çıkış Yap',
+    'total_sales' => 'Toplam Satış',
+    'total_profit' => 'Toplam Kâr',
+    'pending_invoices' => 'Bekleyen Faturalar',
+    'low_inventory' => 'Düşük Stok',
+    'bank_summary' => 'Banka Özeti',
+    'inventory_levels' => 'Stok Seviyeleri',
+    'monthly_sales' => 'Aylık Satışlar',
+    'profit_vs_loss' => 'Kâr vs Zarar',
+    'settings' => 'Ayarlar',
+    'language' => 'Dil',
+    'currency' => 'Para Birimi',
+    'currency_position' => 'Para Birimi Konumu',
+    'save' => 'Ayarları Kaydet',
+    'clients' => 'Müşteriler',
+    'add_client' => 'Müşteri Ekle',
+    'edit_client' => 'Müşteriyi Düzenle',
+    'name' => 'Adı',
+    'email' => 'E-posta',
+    'phone' => 'Telefon',
+    'save' => 'Kaydet',
+    'update' => 'Güncelle',
+    'cancel' => 'İptal',
+    'actions' => 'İşlemler',
+    'no_clients_found' => 'Hiç müşteri bulunamadı.',
+    'confirm_delete' => 'Bu müşteriyi silmek istediğinizden emin misiniz?',
+
+
+];
